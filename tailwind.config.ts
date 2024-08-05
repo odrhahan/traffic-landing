@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        '3xl': '1920px'
+        "3xl": "1920px",
       },
       spacing: {
-        1.5: '6px',
+        1.5: "6px",
         12.5: "50px",
         13.5: "54px",
         15: "60px",
@@ -25,19 +25,20 @@ const config: Config = {
       colors: {
         primary: "rgb(var(--color-primary) / <alpha-value>)",
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
-        'gray-1': "rgb(var(--color-gray-1) / <alpha-value>)",
-        'gray-2': "rgb(var(--color-gray-2) / <alpha-value>)",
+        "gray-1": "rgb(var(--color-gray-1) / <alpha-value>)",
+        "gray-2": "rgb(var(--color-gray-2) / <alpha-value>)",
+        "gray-black": "rgb(var(--color-gray-black) / <alpha-value>)",
       },
       fontSize: {
-        "3.25xl": ["32px", {  lineHeight: "36px", },
-        ],
+        "3.25xl": ["32px", { lineHeight: "36px" }],
+        "5.5xl": ["52px", { lineHeight: "80px" }],
       },
       lineHeight: {
-        5.5: '22px'
+        5.5: "22px",
       },
       boxShadow: {
-        box: '0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03)',
-      }
+        box: "0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03)",
+      },
     },
   },
   plugins: [],
