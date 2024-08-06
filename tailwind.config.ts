@@ -45,8 +45,8 @@ const config: Config = {
       },
       boxShadow: {
         box: "0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03)",
-        xs: "0px 1px 12px 0px rgb(var(--color-primary))",
-        inset: "inset 0px -9px 21px -10px rgba(0,0,0,0.75)",
+        xs: "0px -5px 32px 5px rgb(var(--color-primary))",
+        inset: "inset 0px -13px 21px -10px rgba(0,0,0,0.75)",
         "box-step": "0px 21.508px 43.016px -10.754px rgba(16, 24, 40, 0.18)",
       },
     },

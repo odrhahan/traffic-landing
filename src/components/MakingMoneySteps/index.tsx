@@ -12,7 +12,7 @@ const MakingMoneySteps = () => {
         <p className="mb-8 mt-2 text-center text-[28px] font-bold leading-10 text-gray-black 2xl:mb-10 2xl:text-5.5xl">
           Cùng cộng đồng traffic
         </p>
-        <button className="2xl:text-2.75xl 2xl:px-4.5 shadow-xs relative flex items-center rounded-lg border border-white bg-primary px-4 py-3 text-xl font-medium leading-6 -tracking-[0.2px] text-white 2xl:py-3 2xl:font-bold">
+        <button className="2xl:text-2.75xl 2xl:px-4.5 shadow-xs relative flex items-center rounded-lg bg-primary px-4 py-3 text-xl font-medium leading-6 -tracking-[0.2px] text-white 2xl:py-3 2xl:font-bold">
           Trải nghiệm ngay&nbsp;
           <ArrowNarrowRight />
           <div className="shadow-inset absolute -bottom-[2px] left-0 right-0 top-0 rounded-lg"></div>
