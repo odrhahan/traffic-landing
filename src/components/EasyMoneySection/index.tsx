@@ -5,11 +5,11 @@ import Desktop from "./Desktop";
 
 const EasyMoneySection = () => {
   return (
-    <div className="h-screen bg-[url(/images/easy-money/bg-mobile.png)] max-h-[1281px] bg-cover pt-8 sm:overflow-hidden sm:bg-[url(/images/easy-money/bg-1920.png)]">
+    <div className="bg-[url(/images/easy-money/bg-mobile.png)] bg-cover pt-8 sm:overflow-hidden sm:bg-[url(/images/easy-money/bg-1920.png)] 2xl:mt-12 2xl:h-screen 2xl:max-h-[1281px]">
       <h2 className="bg-gradient-to-r from-[#00AAFF] to-[#8636F8] bg-clip-text text-center text-3.25xl font-bold leading-10 text-transparent 2xl:text-5xl 2xl:leading-[80px]">
         Kiếm tiền online <br className="2xl:hidden" /> dễ dàng và an toàn
       </h2>
-      <p className="text-gray-black 2xl:text-5.5xl mb-6 mt-2 text-center text-[28px] font-bold leading-10">
+      <p className="mb-6 mt-2 text-center text-[28px] font-bold leading-10 text-gray-black 2xl:text-5.5xl">
         Cùng cộng đồng traffic
       </p>
 
