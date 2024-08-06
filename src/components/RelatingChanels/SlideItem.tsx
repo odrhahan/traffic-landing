@@ -115,12 +115,12 @@ const SlideItem = ({
         Tìm hiểu thêm&nbsp;
         <ArrowNarrowRight />
         {/* <RectangleShadow className="absolute top-full left-0 right-0" /> */}
-        <Image
+        {/* <Image
           fill
           alt=""
           src={"/images/relating-chanels/button-shadow-purple.png"}
           className="!left-[-63px] !top-[13px] z-10 !h-auto !w-[129%] !max-w-none"
-        />
+        /> */}
       </button>
     </div>
   );
