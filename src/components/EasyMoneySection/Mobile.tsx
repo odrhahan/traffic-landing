@@ -3,7 +3,7 @@ import React from "react";
 
 const Mobile = () => {
   return (
-    <div className="sm:hidden">
+    <div className="lg:hidden">
       <div className="relative pt-[100%]">
         <Image
           src={"/images/easy-money/quy-trinh.png"}

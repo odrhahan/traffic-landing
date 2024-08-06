@@ -3,14 +3,14 @@ import React from "react";
 
 const Desktop = () => {
   return (
-    <div className="relative hidden sm:block">
-      <div className="absolute left-1/2 top-[122px] -translate-x-[717px]">
+    <div className="relative hidden lg:block">
+      <div className="absolute left-1/2 top-[122px] -translate-x-[525px] 1.5xl:-translate-x-[717px]">
         <Image
           src={"/images/easy-money/quy-trinh.png"}
           alt="Quy trinh"
           width={665}
           height={657}
-          className="relative z-10 max-w-none"
+          className="relative z-10 w-[440px] 1.5xl:w-[665px]"
         />
         <Image
           src={"/images/easy-money/quy-trinh-bg-1920.png"}
@@ -24,13 +24,13 @@ const Desktop = () => {
         />
       </div>
 
-      <div className="absolute left-1/2 -translate-x-[135px]">
+      <div className="absolute left-1/2 -translate-x-[78px] 1.5xl:-translate-x-[135px]">
         <Image
           src={"/images/easy-money/awesome-phone.png"}
           alt="Awesome phone"
           width={892}
           height={885}
-          className="z-10 relative"
+          className="relative z-10"
         />
 
         <Image
@@ -38,7 +38,7 @@ const Desktop = () => {
           alt="coin"
           width={127}
           height={112}
-          className="absolute top-[27%] right-2"
+          className="absolute right-2 top-[27%]"
         />
 
         <Image
@@ -62,7 +62,7 @@ const Desktop = () => {
           alt="coin"
           width={78}
           height={71}
-          className="absolute top-[21%] left-[48%]"
+          className="absolute left-[48%] top-[21%]"
         />
       </div>
     </div>
