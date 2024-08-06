@@ -1,6 +1,7 @@
 import EasyMoneySection from "@/components/EasyMoneySection";
 import HeroSection from "@/components/HeroSection";
 import MakingMoneySteps from "@/components/MakingMoneySteps";
+import RelatingChanels from "@/components/RelatingChanels";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <EasyMoneySection />
       <MakingMoneySteps />
+      <RelatingChanels />
     </main>
   );
 }

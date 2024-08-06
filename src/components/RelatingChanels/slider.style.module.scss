@@ -1,0 +1,29 @@
+.container {
+    :global {
+        .trafficsseo-bg {
+            background-clip: text;
+            color: transparent;
+        }
+
+        .slick-list {
+            @media (min-width: 768px) {
+                .slick-track {
+                    display: flex;
+                    justify-content: center;
+                    gap: 75px;
+
+                    > .slick-slide {
+                        flex-basis: 432px;
+                        flex-grow: 0;
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .slick-dots {
+                display: none !important;
+            }
+        }
+    }
+}

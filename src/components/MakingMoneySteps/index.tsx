@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MakingMoneySteps = () => {
   return (
-    <div className="bg-[url(/images/making-money-steps/bg-mobile.png)] sm:bg-[url(/images/making-money-steps/bg-1920.png)]">
+    <div className="bg-[url(/images/making-money-steps/bg-mobile.png)] sm:bg-[url(/images/making-money-steps/bg-1920.png)] sm:bg-contain">
       <div className="mb-16 flex flex-col items-center 2xl:mb-8">
         <h2 className="bg-gradient-to-r from-[#00AAFF] to-[#8636F8] bg-clip-text text-center text-3.25xl font-bold leading-10 text-transparent 2xl:text-5xl 2xl:leading-[80px]">
           3 Bước để bắt đầu kiếm tiền
