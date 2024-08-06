@@ -1,3 +1,4 @@
+import CommunitySection from "@/components/CommunitySection";
 import EasyMoneySection from "@/components/EasyMoneySection";
 import HeroSection from "@/components/HeroSection";
 import MakingMoneySteps from "@/components/MakingMoneySteps";
@@ -10,6 +11,7 @@ export default function Home() {
       <EasyMoneySection />
       <MakingMoneySteps />
       <RelatingChanels />
+      <CommunitySection />
     </main>
   );
 }
