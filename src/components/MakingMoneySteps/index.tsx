@@ -19,8 +19,8 @@ const MakingMoneySteps = () => {
         </button>
       </div>
 
-      <div className="flex flex-col gap-6 2xl:flex-row 2xl:justify-center 2xl:gap-0">
-        <div className="2xl:translate-x-24 relative flex flex-col items-center">
+      <div className="flex flex-col gap-6 md:flex-row 2xl:justify-center 2xl:gap-0">
+        <div className="relative flex flex-col items-center 2xl:translate-x-24">
           <Image
             alt=""
             src={"/images/making-money-steps/step-1-top.png"}
@@ -50,7 +50,7 @@ const MakingMoneySteps = () => {
             alt=""
             width={48}
             height={83}
-            className="absolute -top-[78px] rotate-90 2xl:left-6 2xl:top-1/2 2xl:h-[120px] 2xl:w-[70px] 2xl:-translate-y-35 2xl:rotate-0"
+            className="1.5xl:left-6 1.5xl:-translate-y-35 absolute -top-[78px] rotate-90 md:left-[-13%] md:top-1/2 md:h-[120px] md:w-[70px] md:-translate-y-1/2 md:rotate-0"
           />
           <Image
             alt=""
@@ -83,10 +83,10 @@ const MakingMoneySteps = () => {
             alt=""
             width={48}
             height={83}
-            className="absolute -bottom-7 rotate-90 2xl:right-3 2xl:top-1/2 2xl:h-[120px] 2xl:w-[70px] 2xl:-translate-y-35 2xl:rotate-0"
+            className="1.5xl:right-3 1.5xl:top-1/2 md:h-[120px] md:w-[70px] 1.5xl:-translate-y-35 absolute -bottom-7 rotate-90 md:right-[-19%] md:top-1/2 md:-translate-y-1/2 md:rotate-0"
           />
         </div>
-        <div className="2xl:-translate-x-24 relative flex flex-col items-center">
+        <div className="relative flex flex-col items-center 2xl:-translate-x-24">
           <Image
             alt=""
             src={"/images/making-money-steps/step-3-top.png"}
