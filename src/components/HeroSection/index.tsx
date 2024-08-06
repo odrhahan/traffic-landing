@@ -17,7 +17,7 @@ const HeroSection = () => {
         width={852}
         // fill
         height={768}
-        className="right-13.5 z-20 mx-auto h-[346px] w-[384px] xl:top-1/2 xl:mt-0 xl:h-[576px] xl:w-[639px] xl:-translate-y-1/2 2xl:absolute 2xl:top-32.5 2xl:mx-0 2xl:h-[768px] 2xl:w-[852px] 2xl:translate-y-0"
+        className="right-13.5 z-20 mx-auto h-[346px] w-[384px] 2xl:absolute 2xl:top-32.5 2xl:mx-0 2xl:h-[768px] 2xl:w-[852px] 2xl:translate-y-0"
       />
 
       <div className="px-4 2xl:absolute 2xl:left-60 2xl:top-1/2 2xl:-translate-y-1/2 2xl:px-0">
