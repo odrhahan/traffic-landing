@@ -71,7 +71,7 @@ const SlideItem = ({
       style={{
         background: `linear-gradient(to bottom, ${bgFrom}, ${bgTo})`,
       }}
-      className="relative mx-auto md:mx-0 h-[745px] w-[336px] rounded-[94px] 2xl:h-[849px] 2xl:w-[432px]"
+      className="relative mx-auto h-[745px] w-[336px] rounded-[94px] lg:mx-0 2xl:h-[849px] 2xl:w-[432px]"
     >
       <div className="relative w-full pt-[33.928%] 2xl:pt-[45.958%]">
         <Image
@@ -110,11 +110,17 @@ const SlideItem = ({
         style={{
           background: `linear-gradient(to bottom, ${buttonFrom}, ${buttonTo})`,
         }}
-        className="absolute bottom-12 left-1/2 flex w-[216px] -translate-x-1/2 items-center rounded-[100px] px-9 py-3 text-[17px] leading-6 -tracking-[0.2px] text-white 2xl:py-5"
+        className="absolute bottom-12 left-1/2 z-20 flex w-[216px] -translate-x-1/2 items-center rounded-[100px] px-9 py-3 text-[17px] leading-6 -tracking-[0.2px] text-white 2xl:py-5"
       >
         Tìm hiểu thêm&nbsp;
         <ArrowNarrowRight />
-        <RectangleShadow className="absolute top-full" />
+        {/* <RectangleShadow className="absolute top-full left-0 right-0" /> */}
+        <Image
+          fill
+          alt=""
+          src={"/images/relating-chanels/button-shadow-purple.png"}
+          className="!left-[-63px] !top-[13px] z-10 !h-auto !w-[129%] !max-w-none"
+        />
       </button>
     </div>
   );

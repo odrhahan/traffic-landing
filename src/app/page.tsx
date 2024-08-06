@@ -7,11 +7,11 @@ import RelatingChanels from "@/components/RelatingChanels";
 export default function Home() {
   return (
     <main>
-      <HeroSection />
+      {/* <HeroSection />
       <EasyMoneySection />
-      <MakingMoneySteps />
+      <MakingMoneySteps /> */}
       <RelatingChanels />
-      <CommunitySection />
+      {/* <CommunitySection /> */}
     </main>
   );
 }
