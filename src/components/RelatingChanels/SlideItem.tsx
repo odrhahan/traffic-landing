@@ -1,11 +1,6 @@
 import Image from "next/image";
-import React from "react";
 import {
-  ArrowNarrowRight,
-  CheckBlue,
-  CheckOrange,
-  CheckPurple,
-  RectangleShadow,
+  ArrowNarrowRight
 } from "../ui/icons";
 
 const SlideItem = ({
