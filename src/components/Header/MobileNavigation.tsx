@@ -7,7 +7,7 @@ const MobileNavigation = () => {
   const [isShowMenu, setIsShowMenu] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative xl:hidden">
       <div
         onClick={() => {
           setIsShowMenu((prev) => !prev);

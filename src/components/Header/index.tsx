@@ -5,16 +5,16 @@ import MobileNavigation from "./MobileNavigation";
 
 const Header = () => {
   return (
-    <header className="flex h-15 items-center justify-between px-4 2xl:h-25 3xl:px-62">
+    <header className="flex h-15 items-center justify-between px-4 md:px-10 xl:h-25 3xl:px-62">
       <Image
         src={"/images/traffic-logo.png"}
         alt="Traffic-logo"
         width={243}
         height={88}
-        className="w-[123px] 2xl:w-[243px]"
+        className="w-[123px] xl:w-[243px]"
       />
 
-      <div className="hidden items-center gap-7 3xl:flex">
+      <div className="hidden items-center gap-7 xl:flex">
         <Link href={"#"} className="text-xl font-medium leading-5">
           Về chúng tôi
         </Link>
@@ -37,7 +37,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="hidden items-center gap-7 text-xl leading-5 3xl:flex">
+      <div className="hidden items-center gap-7 text-xl leading-5 xl:flex">
         <button className="h-fit py-4 text-xl leading-5 text-primary">
           Đăng Ký
         </button>
