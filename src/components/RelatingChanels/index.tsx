@@ -4,7 +4,7 @@ import ChanelsSlider from "./ChanelsSlider";
 
 const RelatingChanels = () => {
   return (
-    <div
+    <div id="congdong"
       className={`mt-8 bg-bottom bg-no-repeat md:bg-[url(/images/relating-chanels/line-through.png)] 2xl:mt-10`}
     >
       <div className="mb-12.5 flex flex-col items-center 2xl:mb-8">

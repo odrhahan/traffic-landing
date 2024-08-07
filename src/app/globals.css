@@ -12,3 +12,7 @@
   --color-tertiary: 71 84 103;
   --color-quarterary-500: 102 112 113;
 }
+
+html {
+  scroll-behavior: smooth;
+}
