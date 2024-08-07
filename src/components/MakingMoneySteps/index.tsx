@@ -4,7 +4,10 @@ import Image from "next/image";
 
 const MakingMoneySteps = () => {
   return (
-    <div id="huongdan" className="bg-[url(/images/making-money-steps/bg-mobile.png)] sm:bg-[url(/images/making-money-steps/bg-1920.png)] sm:bg-contain">
+    <div
+      id="huongdan"
+      className="bg-[url(/images/making-money-steps/bg-mobile.png)] bg-cover sm:bg-[url(/images/making-money-steps/bg-1920.png)] md:bg-contain"
+    >
       <div className="mb-16 flex flex-col items-center 2xl:mb-8">
         <h2 className="bg-gradient-to-r from-[#00AAFF] to-[#8636F8] bg-clip-text text-center text-3.25xl font-bold leading-10 text-transparent 2xl:text-5xl 2xl:leading-[80px]">
           3 Bước để bắt đầu kiếm tiền
@@ -12,10 +15,10 @@ const MakingMoneySteps = () => {
         <p className="mb-8 mt-2 text-center text-[28px] font-bold leading-10 text-gray-black 2xl:mb-10 2xl:text-5.5xl">
           Cùng cộng đồng traffic
         </p>
-        <button className="2xl:text-2.75xl 2xl:px-4.5 shadow-xs relative flex items-center rounded-lg bg-primary px-4 py-3 text-xl font-medium leading-6 -tracking-[0.2px] text-white 2xl:py-3 2xl:font-bold">
+        <button className="relative flex items-center rounded-lg bg-primary px-4 py-3 text-xl font-medium leading-6 -tracking-[0.2px] text-white shadow-xs 2xl:px-4.5 2xl:py-3 2xl:text-2.75xl 2xl:font-bold">
           Trải nghiệm ngay&nbsp;
           <ArrowNarrowRight />
-          <div className="shadow-inset absolute -bottom-[2px] left-0 right-0 top-0 rounded-lg"></div>
+          <div className="absolute -bottom-[2px] left-0 right-0 top-0 rounded-lg shadow-inset"></div>
         </button>
       </div>
 
@@ -28,7 +31,7 @@ const MakingMoneySteps = () => {
             height={154}
             className="relative z-[2] 2xl:h-[211px] 2xl:w-[211px]"
           />
-          <div className="shadow-box-step absolute top-20 z-[1] h-[221px] w-[210px] rounded-xl border-b-[18px] border-[#3DBBE6] bg-white py-[50px] pb-[50px] pt-20 text-center 2xl:top-32 2xl:h-[322px] 2xl:w-[286px]">
+          <div className="absolute top-20 z-[1] h-[221px] w-[210px] rounded-xl border-b-[18px] border-[#3DBBE6] bg-white py-[50px] pb-[50px] pt-20 text-center shadow-box-step 2xl:top-32 2xl:h-[322px] 2xl:w-[286px]">
             <p className="bg-gradient-to-r from-[#ADFF00] to-[#0767F7] bg-clip-text text-[32px] font-bold leading-8 text-transparent 2xl:mt-5 2xl:text-[43px]">
               Bước 1
             </p>
@@ -50,7 +53,7 @@ const MakingMoneySteps = () => {
             alt=""
             width={48}
             height={83}
-            className="1.5xl:left-6 1.5xl:-translate-y-35 absolute -top-[78px] rotate-90 md:left-[-13%] md:top-1/2 md:h-[120px] md:w-[70px] md:-translate-y-1/2 md:rotate-0"
+            className="absolute -top-[78px] rotate-90 md:left-[-13%] md:top-1/2 md:h-[120px] md:w-[70px] md:-translate-y-1/2 md:rotate-0 1.5xl:left-6 1.5xl:-translate-y-35"
           />
           <Image
             alt=""
@@ -59,7 +62,7 @@ const MakingMoneySteps = () => {
             height={154}
             className="relative z-[2] 2xl:h-[211px] 2xl:w-[211px]"
           />
-          <div className="shadow-box-step absolute top-20 z-[1] h-[221px] w-[210px] rounded-xl border-b-[18px] border-[#3DBBE6] bg-white py-[50px] pb-[50px] pt-20 text-center 2xl:top-32 2xl:h-[322px] 2xl:w-[286px]">
+          <div className="absolute top-20 z-[1] h-[221px] w-[210px] rounded-xl border-b-[18px] border-[#3DBBE6] bg-white py-[50px] pb-[50px] pt-20 text-center shadow-box-step 2xl:top-32 2xl:h-[322px] 2xl:w-[286px]">
             <p className="bg-gradient-to-r from-[#ADFF00] to-[#0767F7] bg-clip-text text-[32px] font-bold leading-8 text-transparent 2xl:mt-5 2xl:text-[43px]">
               Bước 2
             </p>
@@ -83,7 +86,7 @@ const MakingMoneySteps = () => {
             alt=""
             width={48}
             height={83}
-            className="1.5xl:right-3 1.5xl:top-1/2 md:h-[120px] md:w-[70px] 1.5xl:-translate-y-35 absolute -bottom-7 rotate-90 md:right-[-19%] md:top-1/2 md:-translate-y-1/2 md:rotate-0"
+            className="absolute -bottom-7 rotate-90 md:right-[-19%] md:top-1/2 md:h-[120px] md:w-[70px] md:-translate-y-1/2 md:rotate-0 1.5xl:right-3 1.5xl:top-1/2 1.5xl:-translate-y-35"
           />
         </div>
         <div className="relative flex flex-col items-center 2xl:-translate-x-24">
@@ -94,7 +97,7 @@ const MakingMoneySteps = () => {
             height={154}
             className="relative z-[2] 2xl:h-[211px] 2xl:w-[211px]"
           />
-          <div className="shadow-box-step absolute top-20 z-[1] h-[221px] w-[210px] rounded-xl border-b-[18px] border-[#3DBBE6] bg-white py-[50px] pb-[50px] pt-20 text-center 2xl:top-32 2xl:h-[322px] 2xl:w-[286px]">
+          <div className="absolute top-20 z-[1] h-[221px] w-[210px] rounded-xl border-b-[18px] border-[#3DBBE6] bg-white py-[50px] pb-[50px] pt-20 text-center shadow-box-step 2xl:top-32 2xl:h-[322px] 2xl:w-[286px]">
             <p className="bg-gradient-to-r from-[#ADFF00] to-[#0767F7] bg-clip-text text-[32px] font-bold leading-8 text-transparent 2xl:mt-5 2xl:text-[43px]">
               Bước 3
             </p>

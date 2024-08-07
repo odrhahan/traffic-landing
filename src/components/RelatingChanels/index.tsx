@@ -4,7 +4,8 @@ import ChanelsSlider from "./ChanelsSlider";
 
 const RelatingChanels = () => {
   return (
-    <div id="congdong"
+    <div
+      id="congdong"
       className={`mt-8 bg-bottom bg-no-repeat md:bg-[url(/images/relating-chanels/line-through.png)] 2xl:mt-10`}
     >
       <div className="mb-12.5 flex flex-col items-center 2xl:mb-8">
@@ -14,7 +15,7 @@ const RelatingChanels = () => {
         <p className="mb-8 mt-2 text-center text-[28px] font-bold leading-10 text-gray-black 2xl:mb-10 2xl:text-5.5xl">
           Cùng cộng đồng traffic
         </p>
-        <button className="relative flex items-center rounded-lg border border-white bg-primary px-4 py-3 text-xl font-medium leading-6 -tracking-[0.2px] text-white shadow-xs 2xl:px-4.5 2xl:py-3 2xl:text-2.75xl 2xl:font-bold">
+        <button className="relative flex items-center rounded-lg bg-primary px-4 py-3 text-xl font-medium leading-6 -tracking-[0.2px] text-white shadow-xs 2xl:px-4.5 2xl:py-3 2xl:text-2.75xl 2xl:font-bold">
           Tham gia ngay&nbsp;
           <ArrowNarrowRight />
           <div className="absolute -bottom-[2px] left-0 right-0 top-0 rounded-lg shadow-inset"></div>

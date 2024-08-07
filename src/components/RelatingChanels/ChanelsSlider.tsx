@@ -5,6 +5,8 @@ import SlideItem from "./SlideItem";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import style from "./slider.style.module.scss";
+import { ReactElement, ReactNode, useRef } from "react";
+import { Dot } from "../ui/icons";
 
 const TRAFFICSSEO = [
   "1 tài khoản trafficsseo",
@@ -43,9 +45,12 @@ const ChanelsSlider = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
   };
+
+  let sliderRef = useRef<Slider>(null);
   return (
     <div className={`${style.container}`}>
       <Slider
+        ref={sliderRef}
         {...settings}
         arrows={false}
         accessibility={false}
@@ -57,6 +62,24 @@ const ChanelsSlider = () => {
             },
           },
         ]}
+        appendDots={(dots: ReactElement[]) => {
+          return (
+            <ul>
+              {dots.map((item, index) => {
+                return (
+                  <li
+                    key={index}
+                    onClick={() => sliderRef.current?.slickGoTo(index)}
+                  >
+                    <Dot
+                      className={`${item.props.className.includes("slick-active") ? "text-primary" : "text-[#EAECF0]"}`}
+                    />
+                  </li>
+                );
+              })}
+            </ul>
+          );
+        }}
       >
         <SlideItem items={TRAFFICSSEO} title="TRAFFICSSEO" />
 

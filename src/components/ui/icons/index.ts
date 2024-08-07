@@ -4,6 +4,7 @@ export * from './components/CheckOrange';
 export * from './components/CheckPurple';
 export * from './components/Cheers';
 export * from './components/CustomerReview';
+export * from './components/Dot';
 export * from './components/DownArrowCircle';
 export * from './components/Email';
 export * from './components/Menu';
